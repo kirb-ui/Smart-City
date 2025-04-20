@@ -1,6 +1,7 @@
 Visoko City Services Database Population
 This repository contains a PostgreSQL script to populate a database for managing city services, citizens, and community activities in Visoko, Bosnia and Herzegovina. The script generates sample data for addresses, households, citizens, city services, service requests, feedback, clubs, memberships, venues, and community events.
 Purpose
+
 The script is designed to:
 
 Create realistic test data for a city services management system.
