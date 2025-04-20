@@ -22,6 +22,11 @@ citizen_club_members: Tracks club memberships.
 venues: Stores event locations.
 community_events: Lists community events at venues.
 
+
+
+![image](https://github.com/user-attachments/assets/9eb75249-9093-4123-a9ea-7064e594c355)
+
+
 Prerequisites
 
 PostgreSQL: Version 10 or higher.
@@ -98,11 +103,6 @@ Notes
 Random Data: Uses PostgreSQL’s random() function for dates, coordinates, and selections.
 Dependencies: Sections must run in order due to foreign key relationships (e.g., citizens depends on households).
 No ON CONFLICT: The script avoids ON CONFLICT to prevent errors from missing unique constraints. To use ON CONFLICT, add constraints like:ALTER TABLE service_requests ADD CONSTRAINT unique_citizen_service UNIQUE (citizen_id, service_id);
-
-
-![image](https://github.com/user-attachments/assets/9eb75249-9093-4123-a9ea-7064e594c355)
-
-
 
 Troubleshooting
 
