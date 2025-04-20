@@ -39,11 +39,6 @@ CREATE TABLE service_requests (
 );
 
 Run \d table_name in psql to verify each table’s structure.
-Installation
-
-Clone the Repository:
-git clone https://github.com/your-username/visoko-city-services.git
-cd visoko-city-services
 
 
 Set Up Database:
